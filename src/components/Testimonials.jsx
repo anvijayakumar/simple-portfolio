@@ -9,8 +9,8 @@ const Testimonials = () => {
         <p>Nice things people have said about me:</p>
       </div>
 
-      <div className="flex p-32 space-x-20">
-        <div className="bg-litegray space-y-5 h-80 w-[500px] justify-items-center p-10 rounded-xl">
+      <div className="flex-none md:flex lg:flex p-12 md:p-10 lg:p-32 space-x-0 md:space-x-5 lg:space-x-20 space-y-5 md:space-y-0 lg:space-y-0">
+        <div className="bg-litegray space-y-5 md:space-y-2 lg:space-y-5 h-80 w-[300px] md:w-[500px] lg:w-[500px] justify-items-center p-4 md:p-4 lg:p-10 rounded-xl">
           <img src={user} alt="user-icon" className="bg-userbg rounded-full w-12 h-12 p-2"/>
           <p>
             “Job well done! I am really impressed. He is very very good at what
@@ -20,7 +20,7 @@ const Testimonials = () => {
           <p>John Doe</p>
           <p>Founder - xyz.com</p>
         </div>
-        <div className="bg-litegray space-y-5 h-80 w-[500px] justify-items-center p-10 rounded-xl">
+        <div className="bg-litegray space-y-5 md:space-y-2 lg:space-y-5 h-80 w-[300px] md:w-[500px] lg:w-[500px] justify-items-center p-4 md:p-4 lg:p-10 rounded-xl">
           <img src={user} alt="user-icon" className="bg-userbg rounded-full w-12 h-12 p-2"/>
           <p>
             “Great guy, highly recommended for any COMPLEX front-end development
@@ -30,7 +30,7 @@ const Testimonials = () => {
           <p>John Doe</p>
           <p>Founder - abc.com</p>
         </div>
-        <div className="bg-litegray space-y-4 h-80 w-[500px] justify-items-center p-10 rounded-xl">
+        <div className="bg-litegray space-y-4 md:space-y-1 lg:space-y-5 h-80 w-[300px] md:w-[500px] lg:w-[500px] justify-items-center p-4 md:p-3 lg:p-8 rounded-xl">
           <img src={user} alt="user-icon" className="bg-userbg rounded-full w-12 h-12 p-2"/>
           <p>
             “Sagar was extremely easy and pleasant to work with and he truly

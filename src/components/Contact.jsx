@@ -34,14 +34,14 @@ const Contact = () => {
       )}
       <div className="justify-items-center space-y-5">
         <h1 className="font-Sour text-xl">Get in touch</h1>
-        <p className="text-center ">
+        <p className="text-center text-sm md:text-xl lg:text-xl p-5 md:p-0 lg:p-0">
           What’s next? Feel free to reach out to me if you're looking for a
           <br />
           developer, have a query, or simply want to connect.
         </p>
       </div>
       <div className="pt-8 space-y-5">
-        <div className="flex items-center space-x-5 text-3xl">
+        <div className="flex items-center space-x-5 text-xl md:text-2xl lg:text-3xl">
           <img src={mail} alt="mail-icon" />
           <h1>abcxyz@gmail.com</h1>
           <img
@@ -51,7 +51,7 @@ const Contact = () => {
             className="cursor-pointer"
           />
         </div>
-        <div className="flex items-center space-x-5 text-3xl">
+        <div className="flex items-center space-x-5 text-xl md:text-2xl lg:text-3xl">
           <img src={phone} alt="phone-icon" />
           <h1>+91 1234567890</h1>
           <img
@@ -64,10 +64,10 @@ const Contact = () => {
       </div>
 
       <div>
-        <p className="pt-10">You may also find me on these platforms!</p>
+        <p className="pt-10 text-xs md:text-base lg:text-lg">You may also find me on these platforms!</p>
         <div className="flex pt-3 justify-center items-center space-x-5">
           <a href="#">
-            <img src={git} alt="icon" className="w-10 h-10" />
+            <img src={git} alt="icon" className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10" />
           </a>
           <a href="#">
             <img src={x} alt="icon" className="w-8 h-8" />

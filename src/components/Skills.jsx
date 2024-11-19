@@ -24,7 +24,7 @@ const Skills = () => {
         <h3>The skills, tools and technologies I am really good at:</h3>
       </div>
 
-      <div className="grid grid-cols-8 justify-items-center pt-20 gap-y-20 pb-28 items-center">
+      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 justify-items-center pt-20 gap-y-20 pb-28 items-center">
         <div className="space-y-2 justify-items-center">
             <img src={javascript} alt="javascript-icon" />
             <p>Javascript</p>
